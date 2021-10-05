@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'code39';
+  src: url('free3of9.woff2') format('woff2'),
+      url('free3of9.ttf') format('truetype'),
+      url('fre3of9x.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
