@@ -1,6 +1,5 @@
 <template>
   <h1 class="title">{{title}}</h1>
-  <p>*1234*</p>
   <router-view></router-view>
 </template>
 
@@ -8,7 +7,7 @@
 export default {
   setup () {
     return {
-      title: 'Hello'
+      title: '條碼產生器'
     }
   }
 }
@@ -16,13 +15,8 @@ export default {
 
 
 <style lang="scss">
-@import url('./assets/scss/font.scss');
-@font-face {
-  font-family: free3of9;
-  src: url('/font/fre3of9x.ttf') url('/font/free3of9.ttf');
-}
 #app {
-  font-family: free3of9,'Roboto Mono', 'Noto Sans TC', sans-serif;
+  font-family: 'Roboto Mono', 'Noto Sans TC', sans-serif;
   text-align: center;
 }
 .title{
