@@ -1,0 +1,1 @@
+import{p as a,h as s,c as t,o as e,a as o}from"./vendor.0ea7c96c.js";const c={setup:()=>({})};a("data-v-1b8340bf");const n={class:"home"},r=[o("h2",{class:"title"},"第一頁由此開始",-1)];s(),c.render=function(a,s,o,c,d,f){return e(),t("main",n,r)},c.__scopeId="data-v-1b8340bf";export{c as default};
