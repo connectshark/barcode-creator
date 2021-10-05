@@ -1,10 +1,14 @@
 <template>
-  <h1 class="title">{{title}}</h1>
+  <Head/>
   <router-view></router-view>
 </template>
 
 <script>
+import Head from './components/head.vue'
 export default {
+  components: {
+    Head
+  },
   setup () {
     return {
       title: '條碼產生器'
@@ -18,9 +22,6 @@ export default {
 #app {
   font-family: 'Roboto Mono', 'Noto Sans TC', sans-serif;
   text-align: center;
-}
-.title{
-  font-size: 30px;
-  line-height: 1.9;
+  min-height: 100vh;
 }
 </style>
